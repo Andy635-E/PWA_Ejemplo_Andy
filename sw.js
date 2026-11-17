@@ -22,15 +22,15 @@ self.addEventListener('install', evento=>{
         .then(cache=>{
             return cache.addAll([
                 // '/',
-                '/index.html',
-                '/css/style.css',
+                'index.html',
+                'css/style.css',
                 'css/bootstrap.min.css',
                 'css/londinium-theme.css',
-                '/css/icons.css',
-                '/js/bootstrap.min.js',
-                '/js/aplication.js',
-                '/js/app.js',
-                '/pages/offline.html'
+                'css/icons.css',
+                'js/bootstrap.min.js',
+                'js/aplication.js',
+                'js/app.js',
+                'pages/offline.html'
             ]);
         });
 
